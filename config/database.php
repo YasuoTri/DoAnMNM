@@ -1,10 +1,10 @@
 <?php
 class Database
 {
-    private const HOST = 'localhost';
+    private const HOST = 'localhost:8200';
     private const USERNAME = 'root';
     private const PASSWORD = '';
-    private const DBNAME = 'bht_bookstore';
+    private const DBNAME = 'bht_bookstore1';
 
     private static function Connect()
     {
